@@ -1,0 +1,5 @@
+user = test
+password = test
+hosts = 172.23.0.4
+dbname = mailserver
+query = SELECT destination FROM virtual_aliases WHERE source='%s'
